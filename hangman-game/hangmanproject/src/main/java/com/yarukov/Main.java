@@ -3,24 +3,12 @@ package com.yarukov;
 import java.nio.file.Path;
 import java.util.Scanner;
 
-/*
 
-TODO
-исключения
-ввод слов из файла
-
- */
 
 
 public class Main {
     public static void main(String[] args) {
-
-
-
-
-
         Scanner scan = new Scanner(System.in);
-
          while (true) {
             System.out.println("Начать новую игру (1), завершить (0)");
             int answer = scan.nextLine().charAt(0) - '0';
